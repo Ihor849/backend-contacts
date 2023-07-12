@@ -1,6 +1,6 @@
 
 
-const books = require("../models/books")
+const books = require("../models/books/index")
 
 const { HttpError, ctrlWrapper } = require("../helpers");
 
