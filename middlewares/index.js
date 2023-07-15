@@ -1,5 +1,7 @@
 const validateBody = require("./validateBody");
+const isValidId= require(".//isValideid");
 
-module.exports={
-validateBody
-}
+module.exports = {
+  validateBody,
+  isValidId,
+};
